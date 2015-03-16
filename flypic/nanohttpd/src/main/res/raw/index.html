@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>PicView</title>
+  <script type="text/javascript" src="/jquery.js"></script>
+  <script type="text/javascript" src="/picview.js"></script>
+  <style>
+      body {
+        background-color: black;
+      }
+
+      #logView {
+        position: absolute;
+        display: block;
+        left: 5px;
+        top: 5px;
+        width: 20em;
+        height: 10em;
+        border: 2px dotted #800000;
+        background-color: #202020;
+        font-size: 10pt;
+        color: #a08080;
+      }
+
+      #currentImageDiv {
+        position: absolute;
+        display: block;
+        height: 95%;
+        padding: 0px;
+      }
+
+      #currentImage {
+        height: 100%;
+        margin: 0px;
+      }
+  </style>
+</head>
+<body onload="initPicView()">
+    <div id="logView"></div>
+    <div id="currentImageDiv">
+        <img id="currentImage" src="" />
+    </div>
+</body>
+</html>
