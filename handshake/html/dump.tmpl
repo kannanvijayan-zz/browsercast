@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Dump reponse for $path</title>
+    <style type="text/css">
+        .dump_info {
+            border: 1px solid black;
+            background-color: #afa;
+            display: block;
+        }
+
+        .dump_info_entry {
+            display: block;
+            width: 100%%;
+            border-bottom: 1px dotted #444;
+        }
+
+        .dump_label {
+            font-weight: bolder;
+        }
+
+        .dump_value {
+        }
+    </style>
+</head>
+<body>
+    <div class="dump_info">
+        <div class="dump_info_entry">
+            <div class="dump_label">Command</div>
+            <div class="dump_value">$command</div>
+        </div>
+        <div class="dump_info_entry">
+            <div class="dump_label">ClientAddress</div>
+            <div class="dump_value">$client_address</div>
+        </div>
+        <div class="dump_info_entry">
+            <div class="dump_label">Path</div>
+            <div class="dump_value">$path</div>
+        </div>
+        <div class="dump_info_entry">
+            <div class="dump_label">Version</div>
+            <div class="dump_value">$request_version</div>
+        </div>
+    </div>
+</body>
+</html>
